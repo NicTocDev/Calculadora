@@ -15,10 +15,10 @@ body{
     flex-direction: column;
     align-items:center;
     background-image: url(./fondo_matrix_verde.jpg);
-    background-size: auto ;
-    back
+    background-size: auto ;    
     
 }
+
 h1{
     font-size: 4vw;
 }
