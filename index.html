@@ -16,7 +16,14 @@
     </header>
     <form id="calc">
         <div><span>Ingrese un Número</span><input type="text"  name="num1"></div>
-        <div><span>Ingrese el operador(+-*/)</span><input type="text"  name="op"></div>
+        <div><span>Ingrese el operador(+ - * /)</span><input type="text" list="operadores" id="operadores" name="op">
+        <datalist id=operadores>
+            <option value="+"></option>
+            <option value="-"></option>
+            <option value="*"></option>
+            <option value="/"></option>
+        </datalist>
+        </div>
         <div><span>Ingrese otro numero</span><input type="text"  name="num2"></div>
         <div class="botones">
         <input type="submit" value="Calcular" class="btn">

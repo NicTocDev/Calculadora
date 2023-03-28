@@ -38,12 +38,14 @@ form{
     justify-content: space-evenly;
     
 }
+
 input{
     font-size: 2vw;
     border-width:0.5vw;
     padding: 5px;
     margin: 5px;
 }
+
 
 .btn{
     width:17vw;
