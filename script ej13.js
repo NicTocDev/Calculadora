@@ -27,7 +27,7 @@ const resul=() =>{
         alert("Algo salio mal, intente nuevamente")
     }else{
         resultado.innerHTML = `<div>
-    <h2> El resultado es : ${res}</h2>
+    <h2> El resultado es :  ${res}</h2>
     </div>`
     }
 
